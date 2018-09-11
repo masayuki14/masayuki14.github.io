@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import icon from './icon.jpg';
 import './App.css';
+import Links from './components/Links'
 
 class App extends Component {
   render() {
@@ -10,7 +11,11 @@ class App extends Component {
           <img src={icon} className="App-logo" alt="icon" />
           <h1 className="App-title">Welcome to @masayuki14</h1>
         </header>
-        <p className="App-intro">
+        <div>
+          <h2>Links</h2>
+          <Links />
+        </div>
+        <p className="App-intro" style={{"background-color": "#eee", "padding": "50px 0", "margin-top": "50px"}}>
           Under construction.
         </p>
       </div>
