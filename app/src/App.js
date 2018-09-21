@@ -15,7 +15,8 @@ class App extends Component {
           <h2>Links</h2>
           <Links />
         </div>
-        <p className="App-intro" style={{"background-color": "#eee", "padding": "50px 0", "margin-top": "50px"}}>
+
+        <p className="App-intro" style={{"backgroundColor": "#eee", "padding": "50px 0", "marginTop": "50px"}}>
           Under construction.
         </p>
       </div>
